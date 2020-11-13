@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+/* linea de titulo*/
+header h1{
+    font-weight: bold;
+background: white;
+    font-size: 50px;
+    font-family: arial;
+    color: black;
+    height: 80px;
+    width:100%;
+    text-align: center;
+    line-height: 80px;
+    margin: 0px;
+    padding: 0px;
+
+}
+/*linea de subtitulo*/
+h2{
+ color: black;
+ font-family: arial;
+ text-align: center;
+ 
+}
+/* lineas de primera barra de navegacion*/
+nav{
+    position: relative;
+    margin: auto;
+    width: 300%;
+    height: 50px;
+    background: black;
+    padding: 1px;
+    
+}
+nav ul{
+    position: relative;
+    margin: auto;
+    text-align:center;
+    
+
+}
+nav ul li{
+    display: block;
+    width:270px;
+    line-height:20px;
+    list-style: none;
+    text-align:center;
+    
+
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+}
+ footer{
+   background: black;
+  color:white;
+  text-align: center;  
+    font-family: Arial;
+    font-size: 10px;
+    height: 70px;
+    }
+    
+
+ /*lineas de submenu*/
+
+ul li{
+    margin: auto;
+    padding:0px;
+    list-style:none;
+    text-align:center;
+    width: 400px;
+    
+
+}
+.nav li a{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 50px, 80px;
+    display: block;
+    padding-bottom:0px;
+   
+
+}
+.nav li a:hover{
+background-color: rgb(37, 28, 28);
+}
+.nav > li{
+    float: left;
+
+}
+.nav li ul{
+    display:none;
+    position: absolute;
+    min-width:540px;
+
+}
+.nav li:hover > ul{
+    display: block;
+}
+/*lineas de subplantilla de inicion*/
+
+#titulo {
+    color:violet;
+    font-family: arial;
+}
